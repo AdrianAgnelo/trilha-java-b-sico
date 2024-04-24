@@ -3,5 +3,7 @@ public class MinhaClasse {
         String meuNome = "Adrian";
 
         int anoDeFabricacao = 2022;
+        int anoDeFabricacao1 = 2032;
+
     }
 }

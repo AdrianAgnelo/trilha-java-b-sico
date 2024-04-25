@@ -1,9 +1,15 @@
 public class MinhaClasse {
     public static void main(String[] args) {
-        String meuNome = "Adrian";
+        String primeiroNome = "Adrian";
 
-        int anoDeFabricacao = 2022;
-        int anoDeFabricacao1 = 2032;
+        String segundoNome = "Agnelo";
 
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+
+        System.out.println(nomeCompleto);
+    }
+
+    public static String nomeCompleto (String primeiroNome, String segundoNome) {
+        return "resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
     }
 }

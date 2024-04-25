@@ -1,3 +1,4 @@
+package edu.adrianagnelo.anatomiadeclasses;
 public class MinhaClasse {
     public static void main(String[] args) {
         String primeiroNome = "Adrian";

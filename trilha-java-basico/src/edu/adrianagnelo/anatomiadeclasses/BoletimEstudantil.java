@@ -1,3 +1,4 @@
+package edu.adrianagnelo.anatomiadeclasses;
 public class BoletimEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 10;
